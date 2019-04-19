@@ -62,10 +62,10 @@ def analyze_tweets(user_string):
 
 	
     def get_search(user_string):
-        t = twitter.Api(consumer_key="YBROwLTdcfl5aUjmFBeQuR2BI",
-                consumer_secret="3RsPYWX39H5InfSiPhnbUcwx3mhT3l5tgRCiq3dSJjiuPnwwF9",
-                access_token_key="290887601-7OxdPlFPoDdVcH0GeZvL6eYIXxmRZQNUeLhKpyh2",
-                access_token_secret="eWaE36DKFm6DL6GAIm9KYBBtFDeuHALI68GM5QzD0USpb",
+        t = twitter.Api(consumer_key="",
+                consumer_secret="",
+                access_token_key="",
+                access_token_secret="",
                 tweet_mode='extended',
                 sleep_on_rate_limit=False,)
   
